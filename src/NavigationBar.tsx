@@ -26,7 +26,9 @@ const Container = styled.div({
     alignItems: 'flex-start',
     width: 200,
     backgroundColor: 'white',
-    height: 2000,
+    position: 'fixed',
+    height: '100%',
+    marginTop: 60,
 })
 
 const SubContainer = styled(Button)({

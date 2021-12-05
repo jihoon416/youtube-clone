@@ -43,6 +43,9 @@ const Container = styled.div({
     justifyContent: 'space-between',
     height: 60,
     backgroundColor: 'white',
+    position: 'fixed',
+    zIndex: 1000,
+    width: '100%',
 })
 
 const SubContainer = styled.div({
